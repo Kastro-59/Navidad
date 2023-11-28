@@ -56,14 +56,14 @@
 	width: 330px;
 	height: 330px;
 	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
-	opacity: 0.1;
+	opacity: 0.2;
 	background-size: cover;
 	position: absolute;
 	border-radius: 100%;
 	-webkit-box-shadow: 2px 3px 30px 0px rgba();
 	-moz-box-shadow: 2px 3px 30px 0px rgba();
 	box-shadow: 2px 3px 30px 0px rgba();
-	z-index: -12;
+	z-index: -10;
 	overflow: hidden;
 	right: 5px;
 	top: 13px;
@@ -87,40 +87,6 @@
     }
 }
 
-   .Kastrostreaming .album-cover .currentCoverArt {
-    width: 330px;
-	height: 330px;
-	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
-	opacity: 0.5;
-	background-size: cover;
-	position: absolute;
-	border-radius: 100%;
-	-webkit-box-shadow: 2px 3px 30px 0px rgba();
-	-moz-box-shadow: 2px 3px 30px 0px rgba();
-	box-shadow: 2px 3px 30px 0px rgba();
-	z-index: -12;
-	overflow: hidden;
-	right: 5px;
-	top: 13px;
-	    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
-    -webkit-transition: all 500ms;
-    -moz-transition: all 500ms;
-    transition: all 500ms;
-	
-   }
-   .is-playing .currentCoverArt {
-    right: 675px;
-   }
-   @-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-	}
   .disc {
 	width: 332px;            
 	height: 332px;          
@@ -170,6 +136,43 @@
         -webkit-transform: rotate(360deg);
     }
 }
+
+
+   .Kastrostreaming .album-cover .currentCoverArt {
+    width: 330px;
+	height: 330px;
+	background: url()center no-repeat;
+	opacity: 0.1;
+	background-size: cover;
+	position: absolute;
+	border-radius: 100%;
+	-webkit-box-shadow: 2px 3px 30px 0px rgba();
+	-moz-box-shadow: 2px 3px 30px 0px rgba();
+	box-shadow: 2px 3px 30px 0px rgba();
+	z-index: -12;
+	overflow: hidden;
+	right: 5px;
+	top: 13px;
+	    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+	
+   }
+   .is-playing .currentCoverArt {
+    right: 675px;
+   }
+   @-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+	}
+
   .Kastrostreaming .album-cover1 {
 	width: 320px;
 	height: 340px;
