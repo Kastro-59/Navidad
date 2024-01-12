@@ -34,7 +34,7 @@ body {
 #bgCover {
 	width: 327px;
 	height: 350px;
-	background:url(https://i.imgur.com/bl3MhSk.png) center no-repeat ;
+	background:url(https://i.imgur.com/ReSrxN9.jpg) center no-repeat ;
 	background-size: cover;
 	position: absolute;
 	margin: -26px;
@@ -141,7 +141,7 @@ body {
 #currentCoverArt {
   width: 330px;
   height: 330px;
-  background: url()center no-repeat;
+  background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
   background-size: cover;
   opacity: 0.1;
   position: absolute;
@@ -149,7 +149,8 @@ body {
   -webkit-box-shadow: 2px 3px 30px 0px rgba();
   -moz-box-shadow: 2px 3px 30px 0px rgba();
   box-shadow: 2px 3px 30px 0px rgba();
-  z-index: -11;
+  z-index: -22;
+  display:none!important;  
   overflow: hidden;
   left: 139px;
   top: 10px;

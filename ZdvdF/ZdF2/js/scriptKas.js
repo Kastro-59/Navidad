@@ -1,23 +1,22 @@
 
 
-const RADIO_NAME = 'Zdvd(っ◔◡◔)っKC';
+const RADIO_NAME = '👑VTO👑';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY or AZURACAST. eg : spotify 
-var API_SERVICE = 'ITUNES';
+var API_SERVICE = 'SPOTIFY';
 
-var zenoid = 'emertvc73mruv'
+var zenoid = 'vm2e36xf0k8uv'
 
 var azuracast_nowplaying_url = ''
 
 // URL of SHOUTCast streaming without / on the final, eg: http://streaming.com:8080
-const URL_STREAMING = 'https://stream.zeno.fm/emertvc73mruv';
+const URL_STREAMING = 'https://stream.zeno.fm/vm2e36xf0k8uv';
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
-const API_KEY = "722084e5ad8a078f47728ba92c01162e";
+const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // Set HISTORIC to true to get the last songs played
 const HISTORIC = false;
-
 
 window.onload = function () {
     var page = new Page;
