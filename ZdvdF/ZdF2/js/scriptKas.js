@@ -3,7 +3,7 @@
 const RADIO_NAME = '👑VTO👑';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY or AZURACAST. eg : spotify 
-var API_SERVICE = 'SPOTIFY';
+var API_SERVICE = 'ITUNES';
 
 var zenoid = 'vm2e36xf0k8uv'
 
