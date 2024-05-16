@@ -16,7 +16,7 @@
             URL: "",
 			version: "2",
             stream_id: 1,
-			mount_point: "", //For Icecast server
+			mount_point: "https://api.zeno.fm/mounts/metadata/subscribe/emertvc73mruv", //For Icecast server
 			type: "/;type=mp3",
             streampath: "/stream?icy=http",
 			cors: "",
@@ -25,7 +25,7 @@
             show_listeners: true,    
             src: "",
             volume: 0.5,			
-            autoplay: true
+            autoplay: false
         }, options);
         var thisObj;
         thisObj = this;
@@ -64,9 +64,9 @@
             }
 
             else if(settings.version == "icecast") {
-                audio.src = settings.URL + "/" + settings.mount_point;
+                audio.src = settings.URL  ;
                 settings.src = audio.src;
-                var dataURL = settings.cors + "/" + settings.URL + "/status-json.xsl";
+                var dataURL = settings.mount_point ;
                 getIC(dataURL);				
             }
         });
@@ -167,7 +167,7 @@
             });			
         }
 		
-		//Format title and artist for album cover gathering
+		//Título del formato y artista para la recopilación de la portada del álbum.
 		function formatArtist(artist){
             artist = artist.toLowerCase();			
 			artist = $.trim(artist);
@@ -276,7 +276,7 @@
             $(thisObj).attr("data-tag", data);
         }
 		
-		//Album Cover Handling
+		//Manejo de portadas de álbumes
 		function getCover(artist, title) {		
 			artist = formatArtist(artist);
 			title = formatTitle(title);
