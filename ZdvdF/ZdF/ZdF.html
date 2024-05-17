@@ -6,7 +6,7 @@
 <style> #Cgatatrans + div{ visibility: hidden; </style>
 <link rel="icon" type="image/png" href="https://kastro-59.github.io/Poligonos/api.zenokas/img/cover.png" />
 <link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/styleKKF.css">
+<link rel="stylesheet" href="css/styleKKF2.css">
 
 <style type="text/css">   
         body {
@@ -32,7 +32,7 @@
    
    <div class="player-ctr"><div class="player is-playing"><div class="listeners fa">12</div><div class="album-cover-serv"><div class="social-share-jmd animated">
    <br> <a href="https://www.facebook.com/sharer/sharer.php?u" target="_blank" class="social-link social-link-facebook fa animated" id="aface"></a> <a href="https://twitter.com/home?status=I%27m%20listening" target="_blank" class="social-link social-link-twitter fa animated" id="atwitter">
-  </a></div></div><div class="album-cover animated" style="background-image: url(&quot;img/logo.png&quot;); background-size: 100% 100%;"></div><div class="disc"></div></div><div class="track-info-serv"><div class="track-info-ctr"><div class="marquee">"<span class="artist-name animated" id="currentSong"></span><span> "  ,  " </span><span class="songtitle animated" id="currentArtist"></span><span> " ♫ Radio-KC ♪ "</span></div></div></div><div class="ppBtn play-btn"></div><div class="servertitle">♫ Radio-KC ♪</div>
+  </a></div></div><div class="album-cover animated" id="currentCoverArt" style="background-image: url(&quot;img/logo.png&quot;); background-size: 100% 100%;"></div><div class="disc"></div></div><div class="track-info-serv"><div class="track-info-ctr"><div class="marquee">(っ◔◡◔)っ ♫ ♪ ♫  "<span class="artist-name animated" id="currentSong"></span><span> "  ♫ ♪ ♫  " </span><span class="songtitle animated" id="currentArtist"></span><span> " ♫ Radio-KC ♪ "  ♫ ♪ ♫ (¯`◕‿◕´¯)ღ</span></div></div></div><div class="ppBtn play-btn"></div><div class="servertitle">♫ Radio-KC ♪</div>
    </div>
 
 
@@ -124,16 +124,6 @@ document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[me
 <script type="text/javascript" src= "js/scriptKas2025.js"></script>
 <script type="text/javascript" src= "js/scriptMio.js"></script>  
 
-
-		
-
-<div id="Cgatatrans"></div>
-<script>
-$("#stream1").icast({
-URL: "https://stream.zeno.fm/emertvc73mruv",
-version: "icecast",
-})
-</script>
 <script language="JavaScript" type="text/javascript">
     function click(){
     if(event.button==2){
@@ -152,5 +142,15 @@ version: "icecast",
 document.oncontextmenu = function(){return false}
 // End -->
 </script>
+		
+
+<div id="Cgatatrans"></div>
+<script>
+$("#stream1").icast({
+URL: "https://stream.zeno.fm/emertvc73mruv",
+version: "icecast",
+})
+</script>
+
 </body>
 </html>
