@@ -9123,7 +9123,7 @@ a.text-dark:focus,a.text-dark:hover {
 @import url('bootstrap.min.css');
 
 html, body {
-    height: 80%;
+    height: 100%;
 }
 
 body {
