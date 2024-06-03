@@ -39,14 +39,14 @@ class Page {
                 currentSong.className = 'text-uppercase';
                 currentSong.innerHTML = song;
 
-                currentArtist.className = 'text-capitalize';
+                currentArtist.className = 'text-uppercase';
                 currentArtist.innerHTML = artist;
 
                 document.getElementById('lyricsSong').innerHTML = song + ' - ' + artist;
 
                 setTimeout(function () {
                     currentSong.className = 'text-uppercase';
-                    currentArtist.className = 'text-capitalize';
+                    currentArtist.className = 'text-uppercase';
                 }, 2000);
             }
         };
