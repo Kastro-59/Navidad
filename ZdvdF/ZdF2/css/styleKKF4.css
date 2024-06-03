@@ -9419,8 +9419,8 @@ input[type=range]::-ms-thumb {
 
 
 .historic h2 {
-    color: #72FF50;
-    border-bottom: 2px solid #72FF50;
+    color: #fefefe;
+    border-bottom: 2px solid #fefefe;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -9446,7 +9446,7 @@ input[type=range]::-ms-thumb {
     border-radius: 10px;
     background: url('../img/Tapa.png') no-repeat;
     background-size: cover;
-    border: 2px solid #72FF50;
+    border: 2px solid #fefefe;
    
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-image 1s;
@@ -9454,7 +9454,7 @@ input[type=range]::-ms-thumb {
 
 /* COLOR TEXTO INFO ARTISTA */
 .historic .music-info {
-    color: #72FF50;
+    color: white;
     font-family: 'Poppins', sans-serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -9468,7 +9468,7 @@ input[type=range]::-ms-thumb {
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: -5px;
-    color: #72FF50;
+    color: white;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
