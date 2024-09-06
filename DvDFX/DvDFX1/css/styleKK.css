@@ -70,9 +70,9 @@
 	-webkit-animation: spin 6s linear infinite;
     -moz-animation: spin 6s linear infinite;
     animation: spin 6s linear infinite;
-    -webkit-transition: all 500ms;
-    -moz-transition: all 500ms;
-    transition: all 500ms;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    transition: all 2s;
 	
 	
    }
