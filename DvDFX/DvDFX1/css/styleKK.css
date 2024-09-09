@@ -95,7 +95,7 @@
   }
    }
    .is-playing .album-cover {
-    right: 215px;
+    right: -1200px;
 }
 @-webkit-keyframes spin {
     0% {
