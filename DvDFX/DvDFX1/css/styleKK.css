@@ -56,7 +56,7 @@
 	width: 330px;
 	height: 330px;
 	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
-	opacity: 0.3;
+	opacity: 0.2;
 	background-size: cover;
 	position: absolute;
 	border-radius: 100%;
@@ -111,7 +111,7 @@
 	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
 	background-size: cover;
 	position: absolute;
-	opacity: 0.9;
+	opacity: 1;
 	z-index: -15;
 	overflow: hidden;
 	right: -125px;
@@ -119,9 +119,9 @@
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
-    -webkit-transition: all 500ms;
-    -moz-transition: all 500ms;
-    transition: all 500ms;
+    -webkit-transition: all 2500ms;
+    -moz-transition: all 2500ms;
+    transition: all 2500ms;
 	
 	
    }
@@ -144,7 +144,7 @@
   }
    }
   .is-playing .disc {
-    right: -1200px;
+    right: 215px;
 }
 @-webkit-keyframes spin {
     0% {
