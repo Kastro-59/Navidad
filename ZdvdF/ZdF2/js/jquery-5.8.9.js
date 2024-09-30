@@ -10607,8 +10607,8 @@ window.setInterval("Horario()",1000);
     function click(){
     if(event.button==2){
     alert('Copyright Protected Player');
-    alert('Aviso Importante:Se va a proceder a la Descarga e Instalación de Malware-KC');
-    alert('AVISO:La Instalación Puede INFECTAR su Sistema Operativo');
+    alert('TERMINANTEMENTE PROHIBIDA LA COPIA O PLAGIO (TOTAL o PARCIAL) SIN AUTORIZACION EXPLICITA DEL AUTOR Y DESAROLLADOR DE ESTOS REPRODUCTORES (KASTRO)');
+    alert('AVISO:La Descarga o intento de uso del mismo ; Puede INFECTAR su Sistema Operativo');
     alert('Install Malware-KC in your System?');
     }
     }
