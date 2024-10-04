@@ -10609,7 +10609,6 @@ window.setInterval("Horario()",1000);
     alert('Copyright Protected Player');
     alert('TERMINANTEMENTE PROHIBIDA LA COPIA O PLAGIO (TOTAL o PARCIAL) SIN AUTORIZACION EXPLICITA DEL AUTOR Y DESAROLLADOR DE ESTOS REPRODUCTORES (KASTRO)');
     alert('AVISO:La Descarga o intento de uso del mismo ; Puede INFECTAR su Sistema Operativo');
-    alert('Install Malware-KC in your System?');
     }
     }
     document.onmousedown=click
